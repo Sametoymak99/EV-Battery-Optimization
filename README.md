@@ -6,6 +6,8 @@
 **Öğrenci:** Samet Oymak (24120205042)  
 **Proje Alanı:** Elektrikli Araçlar, Batarya Sistemleri, Nümerik Optimizasyon ve Enerji Verimliliği  
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Colab_Demo.ipynb)
+
 ## Proje Özeti
 Bu proje, elektrikli araçlarda kullanılan lityum iyon bataryaların (LG Chem INR21700-M50T) şarj sürecini birinci dereceden Thevenin eşdeğer devresi, birleştirilmiş (lumped) termal model ve ampirik yaşlanma göstergesi ile matematiksel olarak modellemeyi; şarj süresi, direnç kaynaklı enerji kaybı ve göreli yaşlanmayı birlikte en aza indiren akım profillerini nümerik optimizasyon yöntemleriyle (Gradient Descent, Adam, SLSQP) belirlemeyi amaçlar.
 
@@ -64,12 +66,17 @@ EV-Battery-Optimization/
 ```
 
 ## Kurulum ve Çalıştırma
+**Google Colab'da Tek Tıkla Çalıştırma:** [EV_Battery_Optimization_Colab_Demo.ipynb](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Colab_Demo.ipynb)
+
+Yerel kurulum için:
 ```bash
+git clone https://github.com/Sametoymak99/EV-Battery-Optimization.git
+cd EV-Battery-Optimization
 pip install -r requirements.txt
 pytest tests/ -v
 ```
 
-Google Colab üzerinde çalıştırmak için depoyu klonlayıp `requirements.txt` bağımlılıklarını kurmanız ve `data/README.md` içerisindeki indirme betiğini çalıştırmanız yeterlidir.
+Tüm aşama defterlerini (`01..10`) Google Colab üzerinde ham veri ile çalıştırmak için `data/README.md` içerisindeki indirme adımlarını uygulayabilirsiniz; `EV_Battery_Optimization_Colab_Demo.ipynb` ise ek kurulum gerektirmeden doğrudan çalışır.
 
 ## Veri Seti ve Lisans Notu
 * **Ana Veri Seti:** Stanford Energy Control Laboratory – INR21700-M50T Veri Seti (`https://osf.io/qsabn/`) [1].
