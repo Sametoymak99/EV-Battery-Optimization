@@ -1,0 +1,13 @@
+parameter,value,std_or_uncertainty,unit,source,type
+Q_Ah,4.859873076029536,0.025388805909087004,Ah,"capacity_test_Diag1 (W4,W8,W9,W10)",data_estimated
+R0_Ohm,0.02865084067687651,0.003693054525790643,Ohm,"HPPC_test_Diag1 LSQ (W4,W8,W9,W10)",data_estimated
+R0_EIS_Ohm,0.02554532109040366,0.0005686788724875581,Ohm,"EIS_test_Diag1 Im(Z)~0 (W8,W9,W10)",cross_check
+R1_Ohm,0.015848579313994565,0.00038112548386397553,Ohm,"HPPC_test_Diag1 LSQ (W4,W8,W9,W10)",data_estimated
+C1_F,3795.1641387721543,128.81374857868806,F,"HPPC_test_Diag1 LSQ (W4,W8,W9,W10)",data_estimated
+Rth_K_per_W,4.254698318224314,0.6382047477336471,K/W,W10_Channel_6.2 3C thermal LSQ,data_estimated
+Cth_J_per_K,134.85830011034426,13.485830011034427,J/K,W10_Channel_6.2 3C thermal LSQ,data_estimated
+T_amb_C,23.0,-0.1738360378311441,degC,Amerex chamber nominal (fit=T_amb_fit),experimental_condition
+eta,0.998,0.002,-,Assumed Coulombic efficiency,assumed_literature
+k0,0.015,0.0,1/s,Relative aging index (not absolute SOH),literature_empirical
+Ea_J_per_mol,31500.0,0.0,J/mol,Literature Arrhenius activation energy,literature_empirical
+p_crate,1.5,0.0,-,Literature C-rate stress exponent,literature_empirical

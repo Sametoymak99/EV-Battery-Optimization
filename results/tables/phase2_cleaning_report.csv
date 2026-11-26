@@ -1,0 +1,18 @@
+dataset,source,n_initial,n_clean,removed_total,soc_max_diff,notes
+stanford,capacity_test_Diag1_W4,71587,71587,0,0.0,"Q_logged=4.8224 Ah, Q_coulomb=4.8224 Ah"
+stanford,capacity_test_Diag1_W5,72092,72092,0,0.0,"Q_logged=4.8566 Ah, Q_coulomb=4.8566 Ah"
+stanford,capacity_test_Diag1_W8,72392,72392,0,0.0,"Q_logged=4.8769 Ah, Q_coulomb=4.8769 Ah"
+stanford,capacity_test_Diag1_W9,72353,72353,0,0.0,"Q_logged=4.8743 Ah, Q_coulomb=4.8743 Ah"
+stanford,capacity_test_Diag1_W10,72227,72227,0,0.0,"Q_logged=4.8659 Ah, Q_coulomb=4.8659 Ah"
+stanford,capacity_test_Diag1_V4,72273,72273,0,0.0,"Q_logged=4.8687 Ah, Q_coulomb=4.8687 Ah"
+stanford,Cycling_1_W4,7773108,7773107,1,,"cycles=24, step0_removed=1, Cycle2 soc_start=0.1454, Q_chg=4.1215 Ah"
+stanford,Cycling_1_W8,7239558,7239557,1,,"cycles=24, step0_removed=1, Cycle2 soc_start=0.1628, Q_chg=4.0828 Ah"
+stanford,Cycling_1_W9,6886970,6886969,1,,"cycles=24, step0_removed=1, Cycle2 soc_start=0.1596, Q_chg=4.0961 Ah"
+stanford,Cycling_1_W10,6819114,6819113,1,,"cycles=24, step0_removed=1, Cycle2 soc_start=0.1574, Q_chg=4.1000 Ah"
+stanford,W10_Channel_6.2_thermal,186198,186198,0,,"T=[22.59, 33.63] C, 1Hz rows=16785"
+nasa_18650,B0005,591458,591453,5,,Q_init=1.8565 Ah
+nasa_18650,B0006,591458,591453,5,,Q_init=2.0353 Ah
+nasa_18650,B0007,591458,591449,9,,Q_init=1.8911 Ah
+nasa_18650,B0018,314676,314674,2,,Q_init=1.8550 Ah
+nasa_18650,B0029,110487,110487,0,,Q_init=1.6975 Ah
+nasa_18650,B0053,120623,120623,0,,Q_init=1.0691 Ah
