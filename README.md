@@ -6,7 +6,7 @@
 **Öğrenci:** Samet Oymak (24120205042)  
 **Proje Alanı:** Elektrikli Araçlar, Batarya Sistemleri, Nümerik Optimizasyon ve Enerji Verimliliği  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Colab_Demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Full_Colab.ipynb)
 
 ## Proje Özeti
 Bu proje, elektrikli araçlarda kullanılan lityum iyon bataryaların (LG Chem INR21700-M50T) şarj sürecini birinci dereceden Thevenin eşdeğer devresi, birleştirilmiş (lumped) termal model ve ampirik yaşlanma göstergesi ile matematiksel olarak modellemeyi; şarj süresi, direnç kaynaklı enerji kaybı ve göreli yaşlanmayı birlikte en aza indiren akım profillerini nümerik optimizasyon yöntemleriyle (Gradient Descent, Adam, SLSQP) belirlemeyi amaçlar.
@@ -66,7 +66,9 @@ EV-Battery-Optimization/
 ```
 
 ## Kurulum ve Çalıştırma
-**Google Colab'da Tek Tıkla Çalıştırma:** [EV_Battery_Optimization_Colab_Demo.ipynb](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Colab_Demo.ipynb)
+**Google Colab'da Tek Tıkla Çalıştırma:**
+* **Tek Parça Tam Proje (12 Aşama, ~4–5 dk):** [EV_Battery_Optimization_Full_Colab.ipynb](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Full_Colab.ipynb)
+* **Hızlı Sunum Demosu (~30 sn):** [EV_Battery_Optimization_Colab_Demo.ipynb](https://colab.research.google.com/github/Sametoymak99/EV-Battery-Optimization/blob/main/notebooks/EV_Battery_Optimization_Colab_Demo.ipynb)
 
 Yerel kurulum için:
 ```bash
